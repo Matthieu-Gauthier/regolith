@@ -1,6 +1,6 @@
-Xft.dpi: 157
-Xcursor.size: 50
-gnome.terminal.font:	JetBrains Mono 14
+##Xft.dpi: 157
+##Xcursor.size: 50
+gnome.terminal.font:	JetBrains Mono 12
 i3-wm.font: JetBrains Mono 12
 Xcursor.theme: macOSBigSur
 
@@ -16,7 +16,8 @@ i3-wm.workspace.08.name: 8: 8 
 i3-wm.workspace.09.name: 9: 9 
 i3-wm.workspace.10.name: 10: 10 
 
-i3-wm.gaps.inner.size: 15
+i3-wm.gaps.inner.size: 10
+i3-wm.gaps.smart: inverse_outer
 
 strip-wsnumbers = true 11, FontAwesome 11
 
@@ -27,7 +28,7 @@ i3-wm.binding.display: Mod4+Shift+d
 
 ##ROFI
 rofi.theme: /home/got/.local/share/rofi/themes/slate
-rofi.font: JetBrains Mono 16
+rofi.font: JetBrains Mono 12
 
 #i3-wm.program.1: ~/.config/polybar/launch.sh
 #i3-wm.program.2: nitrogen --restore 
